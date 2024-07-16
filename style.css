@@ -1,0 +1,739 @@
+body
+{
+    margin: 0px ;
+}
+/* ----------navbar---------- */
+*
+{
+    font-family: sans-serif;
+}
+.navbar
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+/* .nav-logo
+{
+    margin-left: 50px;
+} */
+.list
+{
+  margin-left: 400px; 
+}
+.list-item
+{
+    display: inline;
+    margin-left: 20px;
+    margin-right: 25px;
+    color: #808080;
+}
+.active,.list-item:hover
+{
+    color: black;
+    cursor: pointer;
+}
+.navmenu
+{
+ display: none;
+}
+.navbutton button
+{
+    
+    margin-right: 50px;
+    padding: 15px 30px;
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid ;
+    color: #1e90ff;
+    font-size: 15px;
+}
+/* ----------hosting---------- */
+.hosting
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.hosting-left .heading
+{
+    font-size: 50px;
+}
+.hosting-left p
+{
+    font-size: 17px;
+    color: #808080;
+}
+.hosting-left button
+{
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #1e90ff;
+    border: 1px solid #1e90ff;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 5px 20px #1e90ff ;
+}
+.hosting-right img
+{
+    width: 500px;
+    margin-top: 20px;
+}
+/* ----------tessting---------- */
+.testing
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 220px;
+}
+.testing-right .heading
+{
+    font-size: 50px;
+}
+.testing-right p
+{
+    font-size: 17px;
+    color: #808080;
+}
+.testing-right button
+{
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #1e90ff;
+    border: 1px solid #1e90ff;
+    color: #ffffff;
+    margin-top: 20px;
+    box-shadow: 0px 5px 20px #1e90ff ;
+}
+.testing-left img
+{
+    width: 500px;
+}
+/* - ------technical Support------ - */
+.technical-Support
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 200px;
+}
+.technical-Support-left .heading
+{
+    font-size: 50px;
+    margin-top: 155px;
+}
+.technical-Support-left p
+{
+    font-size: 17px;
+    color: #808080;
+}
+.technical-Support-left button
+{
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #1e90ff;
+    border: 1px solid #1e90ff;
+    color: #ffffff;
+    margin-top: 10px;
+    box-shadow: 0px 5px 20px #1e90ff ;
+}
+.technical-Support-right img
+{
+    width: 550px;
+}
+/* ------Services------  */
+.Services
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.Services-left .heading
+{
+    font-size: 50px;
+}
+.Services-right p
+{
+    font-size: 17px;
+    color: #808080;
+    margin-top: 65px;
+}
+/* ----------card-hosting---------- */
+.card-hosting
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.card-hosting p
+{
+    color: #808080;
+}
+/* ----------card-Domain---------- */
+.card-domain
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.card-domain p
+{
+    color: #808080;
+}
+/* ----------packages----------- */
+.headding-flexible
+{
+    background-color: #1e90ff;
+    margin: 0px;
+    padding-top: 50px;
+    font-size: 40px;
+    padding-bottom: 50px;
+    color: #ffffff;
+}
+.packages
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    background-color: #1e90ff;
+    padding-bottom: 50px;
+    
+}
+/* ----------starter & business pack---------- */
+.starter-business
+{
+    background-color: #ffffff;
+    padding: 40px 35px; 
+    border-radius: 10px;
+}
+.starter-business p
+{
+    font-size: 15px;
+    margin-bottom: 55px;
+    color: #808080;
+}
+.starter-business li
+{
+   margin-bottom: 25px;
+
+}
+.starter-business h2
+{
+    margin-top: 70px;
+}
+.starter-business h5,span
+{
+    color: #808080;
+}
+.starter-business-button
+{
+    padding: 10px 35px;
+    border-radius: 10px;
+    background: transparent;
+    border: 1px solid #1e90ff;
+    color: #1e90ff;
+    font-weight: 600;
+}
+/* ----------popular-pack---------- */
+
+.mid-top
+{
+    
+   padding: 5px 35px;
+    border-radius: 10px;
+    /* padding-right: 10px; */
+    background-color: rgb(17, 17, 27);
+   
+}
+.popular-pack
+{
+    background-color: #ffffff;
+    padding-bottom: 40px;
+    border-radius: 10px;
+}
+.popular-pack h1
+{
+ color: #ffffff;
+}
+.popular-pack p
+{
+    font-size: 15px;
+    margin-bottom: 55px;
+    color: white;
+    z-index: 9999;
+}
+.popular-pack ul
+{
+    margin-top: 40px;
+    margin-left: 20px
+}
+.popular-pack li
+{
+   margin-bottom: 25px;
+
+}
+.popular-pack h2
+{
+    margin-top: 65px;
+}
+.popular-pack h5,span
+{
+    color: #808080;
+}
+.popular-button
+{
+    padding: 10px 35px;
+    border-radius: 10px;
+    background-color: #1e90ff;
+    border: 1px solid #1e90ff;
+    color: white;
+    box-shadow: 0px 0px 5px gray;
+    font-weight: 600;
+}
+/* ----------our customer---------- */
+
+.our-customer-heading
+{
+    margin-top: 100px;
+    font-size: 40px;
+}
+.our-customer-para
+{
+    text-align: center;
+    font-size: 17px;
+    color: #808080;
+    margin-bottom: 50px;
+}
+.our-customer
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    
+}
+.our-customerDiv
+{
+    box-shadow: 0px 0px 5px gray;
+    padding: 15px 35px;
+}
+.our-customerDiv p
+{
+    font-size: 15px;
+    color: #808080;
+}
+.circle
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+    background-color: #ada9a9;
+}
+.our-customerDiv h3
+{
+    margin-top: -56px;
+    margin-bottom: -15px;
+    color: #373636;
+}
+.our-customerDiv h3,h5
+{
+    margin-left: 90px;
+}
+.our-customerDiv h5
+{
+    color: #808080;
+}
+/* ----------Hosting Services--------- */
+.hosting-services
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #1e90ff;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    color: #ffffff;
+}
+.hosting-services h1
+{
+ font-size: 45px;
+}
+.hosting-services p
+{
+   font-size: 15px;
+}
+.hosting-services-right button
+{
+    padding: 12px 30px;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    background: transparent;
+    color: #ffffff;
+    font-size: 17px;
+    margin-top: 85px;
+}
+/* ----------footer---------- */
+.footer
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.footer ul
+{
+    list-style-type: none;
+    padding-left: 0px;
+    font-size: 15px;
+    color: #808080;
+
+}
+.footer li
+{
+    margin-bottom: 15px;
+}
+.footer-logo p
+{
+    margin-top: 15px;
+    font-size: 15px;
+    color: #808080;
+}
+.menu
+{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.links,.Overview
+{
+    margin-right: 5px;  
+}
+/* ---------------------@media screen---------------- */
+@media screen and (max-width: 1440px)
+{
+  .nav-logo
+   {
+    margin-left: 50px;
+   } 
+   .list
+    {
+    margin-left: 150px; 
+    }
+}/* ---------------------@media screen---------------- */
+
+@media screen and (max-width: 1240px)
+{
+    .list
+    {
+     margin-left: 30px; 
+    }
+}
+/* ---------------------@media screen---------------- */
+@media screen and (max-width: 1092px)
+{
+    /* -----------nav--------- */
+    .list
+    {
+      margin-left: 10px;
+    }
+    .list-item 
+    {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    /* -----------hosting-------- */
+    .hosting-left .heading 
+    {
+        font-size: 40px;
+    }
+    .hosting-left p 
+    {
+        font-size: 14px;
+    }
+    .hosting-right img 
+    {
+        width: 435px;
+    }
+    /* ----------testing--------- */
+    .testing-left img 
+    {
+        width: 450px;
+    }
+    .testing-right .heading 
+    {
+        font-size: 40px;
+    }
+    .testing-right p 
+    {
+        font-size: 14px;
+    }
+    /* -----------technical-Support---------- */
+    .technical-Support-left .heading 
+    {
+        font-size: 40px;
+    }
+    .technical-Support-left p {
+        font-size: 14px;
+    }
+    .technical-Support-right img
+    {
+        width: 450px;
+        margin-top: 40px;
+    }
+    .Services-right p 
+    {
+        font-size: 15px;
+    }
+    /* -----------Services---------- */
+    .Services-left .heading 
+    {
+        font-size: 40px;
+    }
+    /* ---------------card-hosting---------- */
+    .card-hosting h3
+    {
+        font-size: 17px;
+    }
+    .card-hosting p 
+    {
+        font-size: 14px;
+    }
+     /* ---------------card-domain---------- */
+     .card-domain h3
+     {
+         font-size: 17px;
+     }
+     .card-domain p 
+     {
+         font-size: 14px;
+     }
+}
+/* --------------------------------@media screen----------------------- */
+@media screen and (min-width: 768px) and (max-width: 1023px)
+{
+    /* ---------------nav--------------- */
+    .nav-logo
+     {
+        margin-left: 0px;
+    }
+   .list
+    {
+        display: none;
+    }
+    .navbutton
+    {
+        display: none;
+    } 
+    .navmenu
+    {
+        display: block;
+    }
+    /* -----------hosting----------- */
+    
+    .hosting-right img 
+    {
+        margin-top: 50px;
+    }
+    /* --------------testing---------- */
+    .testing-left img 
+    {
+        margin-bottom: 50px;
+    }
+    /* --------------Services------------- */
+    .Services-right p 
+    {
+      margin-top: 38px;
+    }
+    /* --------------technical-Support-------- */
+    .technical-Support-left .heading 
+    {
+        margin-top: 15px;
+    }
+     /* ---------------card-hosting---------- */
+     .card-hosting h3
+     {
+         font-size: 15px;
+     }
+     .card-hosting p 
+     {
+         font-size: 12px;
+     }
+      /* ---------------card-domain---------- */
+      .card-domain h3
+      {
+          font-size: 15px;
+      }
+      .card-domain p 
+      {
+          font-size: 12px;
+      }
+      /* ---------------our-customer----------------- */
+      .our-customer-para
+       {
+        font-size: 16px;
+       }
+      /* ---------------hosting-services------------ */
+      .hosting-services h1
+      {
+        font-size: 40px;
+      }
+      .hosting-services p 
+      {
+        font-size: 14px;
+      }
+    /* --------------------footer--------------- */
+    .footer-logo p 
+    {
+        font-size: 12px;
+    }
+    .footer ul
+    {
+        font-size: 12px;
+    }
+}
+/* ------------------@media screen--------------- */
+@media screen and (max-width: 768px)
+{
+     /* ---------------nav--------------- */
+    .nav-logo 
+    {
+        margin-left: 0px;
+    }
+   .list
+   {
+       display: none;
+   }
+   .navbutton
+   {
+       display: none;
+   } 
+   .navmenu
+   {
+       display: block;
+   }
+   /* --------------hosting------------ */
+   .hosting-left .heading 
+   {
+    font-size: 25px;
+    }
+    .hosting-left p 
+    {
+        font-size: 11px;
+    }
+    .hosting-left button 
+    {
+        font-size: 12px;
+    }
+    .hosting-right img 
+    {
+        width: 325px;
+    }
+    /* -------------testing--------- */
+    .testing-left img 
+    {
+        width: 325px;
+    }
+    .testing-right .heading 
+    {
+        font-size: 25px;
+    }
+    .testing-right p 
+    {
+        font-size: 11px;
+    }
+    .testing-right button 
+    {
+        font-size: 12px;
+    }
+    /* ------------------technical-Support------------- */
+    .technical-Support-left .heading {
+        font-size: 25px;
+    }
+    .technical-Support-left .heading
+     {
+        margin-top: 15px;
+     }
+     .technical-Support-left p 
+     {
+        font-size: 12px;
+     }
+     .technical-Support-left button 
+     {
+        font-size: 12px; 
+     }
+     .technical-Support-right img 
+     {
+        width: 325px;
+     }
+     /* -------------Services----------- */
+     .Services-left .heading
+    {
+        font-size: 30px;
+     }
+    .Services-right p 
+    {
+        font-size: 11px;
+        margin-top: 30px;
+    }
+    /* -----------our-customer------------ */
+    .our-customer-heading 
+    {
+        font-size: 25px;
+    }
+    .our-customer-para 
+    {
+        font-size: 14px;
+    }
+    /* --------------our-customerDiv----------- */
+    .our-customerDiv p 
+    {
+        font-size: 9px;
+    }
+    .circle 
+    {
+        width: 55px;
+        height: 55px;
+    }
+    .our-customerDiv h3, h5 
+    {
+        margin-left: 75px;
+    }
+    .our-customerDiv h3
+    {
+        font-size: 16px;
+    }
+    /* ----------hosting-services----------- */
+    .hosting-services h1
+    {
+        font-size: 25px;
+    }
+    .hosting-services p 
+    {
+        font-size: 12px;
+    }
+    .hosting-services-right button 
+    {
+        font-size: 14px;
+    }
+    /* ----------footer -------------- */
+    /* .footer 
+    {
+        flex-direction: column;
+        align-items: center;
+    } */
+}
